@@ -1,10 +1,9 @@
 import collections
 import datetime as dt
 import sys
+import pandas
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
-
-import pandas
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
