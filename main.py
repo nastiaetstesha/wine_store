@@ -25,7 +25,7 @@ def get_age_since(establish_year=1920):
 
 
 def main():
-    path_to_wines = "/Users/egorsemin/Practice/wine_store/wine2 (1).xlsx"
+    path_to_wines = "/Users/egorsemin/Practice/wine_store/wine3.xlsx"
 
     path_to_wines = Path(path_to_wines)
     if not path_to_wines.exists():
