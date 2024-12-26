@@ -1,5 +1,4 @@
 .venv
 __pycache__
-wine2 (1).xlsx
-wine3.xlsx
+*.xlsx
 .env
