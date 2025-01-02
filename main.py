@@ -52,7 +52,9 @@ def main():
         age=get_age_since(establish_year=1920),
         wines_categorised={
             category: wines_categorised[category]
-            for category in sorted_categories})
+            for category in sorted_categories
+        }
+    )
 
     with open("index.html", "w", encoding="utf8") as file:
         file.write(rendered_page)
